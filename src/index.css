@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.grid {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 10px; /* Adjust the gap value as needed */
+    justify-content: flex-end;
+  }
+  
+  
+  .flex {
+    /* Existing styles */
+    flex-wrap: wrap;
+  }
+    
