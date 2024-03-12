@@ -3,6 +3,9 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     maxWidth: {
@@ -27,7 +30,7 @@ export default {
         montserrat: ['Montserrat', 'sans-serif'],
       },
       boxShadow: {
-        navbarShadow: "0 10px 30px -10px rgba(2,12,27,0.7)",
+        navbarShadow: " 0 10px 30px -10px rgba(2,12,27,0.7)",
       },
       colors: {
         bodyColor: "#0A192F",
